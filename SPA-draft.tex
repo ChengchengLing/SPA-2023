@@ -1,0 +1,128 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Latex template for abstracts
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Formulario latex para resumos
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\documentclass{article}
+\usepackage[utf8]{inputenc}
+\usepackage{amsmath,amsthm,amsfonts,amssymb,amscd}
+\begin{document}
+\thispagestyle{empty}
+\newcommand{\titulo}[1]{\Large{\bf #1}}
+\newcommand{\nome}[1]{\Large{#1}}
+\newcommand{\instituicao}[1]{\Large{#1}}
+\newcommand{\resumo}[1]{\large{\bf}{#1}}
+\newcommand{\ack}[1]{\large{\bf}{#1}}
+\newcommand{\funding}[1]{\large{\bf}{#1}}
+
+%%%
+% Write the title of the seminar-activity
+% Indique o titulo do seminario-atividade
+%%%
+
+\noindent
+\Large{\bf Title}
+
+\bigskip
+
+Regularization by noise and singular SDEs\\
+
+\noindent
+\Large{{\bf  Name of the organizers}}$^{1}$,
+\\
+\noindent
+%%%
+ M\'at\'e Gerencs\'er, Chengcheng Ling
+% Indique o seu nome
+%%%
+\bigskip
+
+\noindent
+\Large{{\bf  Name of the speaker}}$^{1}$, Oleg Butkovsky, 
+\\
+\noindent
+%%%
+% Write your institutional affiliation
+% Indique a sua instituicao de origem
+%%%
+\noindent
+{\footnotesize $^1$
+Weierstrass Institute for Applied Analysis and Stochastics\\}
+
+ 
+%%%
+\noindent
+\Large{{\bf  Name of the speaker}}$^{2}$, Elena Issoglio,   
+\\
+\noindent
+%%%
+% Write your institutional affiliation
+% Indique a sua instituicao de origem
+%%%
+\noindent
+{\footnotesize $^2$
+University of Turin in Probability\\}
+
+\noindent
+\Large{{\bf  Name of the speaker}}$^{3}$,
+\\
+\noindent
+%%%
+% Write your institutional affiliation
+% Indique a sua instituicao de origem
+%%%
+\noindent
+{\footnotesize $^3$
+ \\}
+
+\bigskip
+% Write a short abstract of your talk (50-100 words)
+% Escreva um resumo da sua palestra (50-100 palavras)
+%%%
+
+\noindent
+\resumo{\newline
+In this session we aim at investigating the regularization effect produced by the noise $(N_t)_{t\geq0}$ for the system which can be described by the following equation 
+\begin{align}\label{eq:SDE}
+  dX_t=b(t,X_t)dt+dN_t,\quad X_0=x\in\mathbb{R}^d,\quad t\geq 0
+\end{align}  
+when $b:[0,T]\times\mathbb{R}^d\rightarrow\mathbb{R}^d$ is not Lipschitz continuous.  \eqref{eq:SDE} is a so-called singualr stochastic equation (singular SDE).  There has been extensive research on this topic in the past, especially recent two years numerous development pops up due to the better understanding on the relation between Kolmogorov equations  and \eqref{eq:SDE} when $(N_t)_{t\geq0}$ is Markovian, meanwhile stochastic sewing technique gives great contribution when $(N_t)_{t\geq0}$ is non-Markovian.  The talks in this session cover both cases on explaining the latest results and ideas on the effect from $(N_t)_{t\geq0}$ to \eqref{eq:SDE}.
+}
+
+
+
+%------
+% Insert acknowledgments and information
+% regarding funding at the end of the last
+% section, i.e., right before the bibliography.
+%------
+
+%\noindent
+%\ack{\newline
+%\textbf{Acknowlegments:} I would to thank....
+%}
+
+
+
+%\noindent
+%\funding{\newline
+%\textbf{Funding:}  This work was  supported by ...
+%}
+
+
+
+
+%\bibliographystyle{plain} %(if needed)
+
+%\begin{thebibliography}{99}
+
+
+%\bibitem{?} {\sc { Surname, Name and Surname, Name}}: {\it title of article}, { Journal's name, number, issue, pages range (year).}
+
+
+
+
+
+%\end{thebibliography}
+\end{document} 
